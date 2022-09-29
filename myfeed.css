@@ -1,0 +1,58 @@
+#newsfeed{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+  
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+  
+    gap: 8px
+    ;
+}
+#newsfeed>div{
+   height: 155px;
+    
+    border-right: 1px solid #505050;
+    
+ border-bottom: 1px solid gray;
+   
+}
+
+#newsfeed>div>#logo{
+    width: 70%;
+    margin: auto;
+    margin-top: 8px;
+    height: 80%;
+}
+
+#newsfeed>div img{
+   width: 100%;
+
+}
+#newsfeed>div>#b{
+    width: 100%;
+   margin: auto;
+   margin-top: -7px;
+   text-align: center;
+    font-size: 15px;
+  
+    font-family: sans-serif;
+    color: #505050;;
+
+}
+#newsfeed>div>#b>b{
+    font-weight: 100;
+}
+#skip{
+    width: 80%;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 30px;
+}
+#skip>button{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+
+}
