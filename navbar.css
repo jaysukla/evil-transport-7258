@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     color: #d1cfd5;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     text-decoration: none;
 }
 body{
@@ -22,10 +22,16 @@ body{
 
 
 #s{
-    width: 30%;
+    width: 19%;
     border: 1px solid black;
     height: 100%;
     height: 38px;
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    font-size: 25px;
+    justify-content: space-around;
+    color: white;
 }
 #navbar a{
     text-decoration: none;
@@ -60,4 +66,7 @@ body{
 }
 #myfeednav>button:hover{
     background-color:  #cdcdcd ;;
+}
+#s>i:hover{
+    color: yellow;
 }
