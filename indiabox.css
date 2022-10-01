@@ -81,7 +81,49 @@ font-weight: 400;
 #down{
     width: 100%;
     border: 1px solid gray;
-margin-top: 20px;
-height: 570px;
 
+
+
+}
+#down>#din{
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid grey;
+    margin-top: -5px;
+
+    display: flex;
+align-items: center;
+margin-top: 15px;
+padding-bottom: 10px;
+justify-content: space-around;
+
+}
+#down>#din>#dmg{
+    width: 24%;
+    overflow: hidden;
+
+}
+#down>#din>#dmg>img{
+    width: 100%;
+    transition: all 1s;
+ 
+}
+#down>#din>#txt{
+    width: 70%;
+  
+    font-size: 20px;
+   color:black;
+   font-family: 'Open Sans' sans-serif;
+   font-weight: 400;
+}
+#down>#din>#dmg>img:hover{
+    transform: scale(1.2);
+}
+#ADS{
+    width: 100%;
+  text-align: center;
+    background-color: #f2f2f2;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: grey;
 }
